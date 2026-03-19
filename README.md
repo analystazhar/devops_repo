@@ -108,6 +108,111 @@ This document is a quick reference for **file management, navigation, and text p
 * Linux is the **foundation of DevOps & Cloud Engineering**
 * These commands are used daily in **real-world production environments**
 * Mastering them improves **efficiency and automation skills**
+# 🚀 Day 2 of My DevOps Journey – Advanced Linux Commands
+
+Today I explored some **powerful Linux commands** used for searching, filtering, comparing, and managing files efficiently.
+
+These commands are widely used in **real-world DevOps, log analysis, and automation tasks**.
+
+---
+
+## 🔍 1. Search Commands
+
+### `grep "word" file`
+
+Search for a word inside a file and display matching lines.
+
+📌 *Use Case:*
+Find errors in logs or specific keywords in large files.
+
+---
+
+### `egrep "word1|word2" file`
+
+Search for multiple words in a file.
+
+📌 *Use Case:*
+Filter multiple patterns like **error OR warning** in logs.
+
+---
+
+## 📁 2. Pattern & Bulk File Creation
+
+### `ls *`
+
+Lists all files in the current directory.
+
+📌 *Use Case:*
+Quick view of all files.
+
+---
+
+### `touch file{1..10}`
+
+Creates multiple files automatically.
+
+📌 *Example Output:*
+file1, file2, file3 … file10
+
+📌 *Use Case:*
+Creating test files or datasets quickly.
+
+---
+
+## 📊 3. File Analysis
+
+### `wc -l filename`
+
+Counts number of lines in a file.
+
+📌 *Use Case:*
+Analyze logs, datasets, or records count.
+
+---
+
+## ⚖️ 4. File Comparison
+
+### `cmp fileA fileB`
+
+Checks if two files are identical.
+
+📌 *Use Case:*
+Verify backups or file integrity.
+
+---
+
+### `diff -u fileA fileB`
+
+Shows differences between two files.
+
+📌 *Use Case:*
+Compare configurations or code changes.
+
+---
+
+## 🔎 5. File Search in System
+
+### `find /path -name filename`
+
+Search for a file in a directory.
+
+📌 *Use Case:*
+Locate files in large server environments.
+
+---
+
+## 🎯 Key Takeaways
+
+* Linux provides powerful tools for **searching and analyzing data**
+* These commands are essential for **DevOps engineers handling logs and systems**
+* Helps improve **efficiency in troubleshooting and automation**
+
+---
+
+🚀 *Learning step by step towards becoming a DevOps Engineer.*
+
+#Day2 #DevOpsJourney #LinuxCommands #AWS #CloudComputing #LearningInPublic
+
 
 ---
 
