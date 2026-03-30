@@ -1,10 +1,17 @@
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-  e.preventDefault();
+async function submitForm() {
+  const data = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value
+  };
 
-  const name = document.getElementById("name").value;
+  await fetch("http://13.201.33.179/contact", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(data)
+  });
 
-  document.getElementById("responseMsg").innerText =
-    "✅ Thank you " + name + "! Your message has been received.";
-
-  this.reset();
-});
+  alert("Message sent!");
+}
